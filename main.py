@@ -3,6 +3,7 @@ def ln(x):
 
 idade = int(input("Qual o ano de seu nascimento? "))
 
+
 if (2023 - idade) >= 18:
     ln(30)
     print(f"Você é maior de idade\n{2023-idade}")
