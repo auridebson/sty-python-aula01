@@ -1,13 +1,18 @@
+import time
+
 def ln(x):
     print("-"*x)
 
 
 cont = int(input("Digite um número para o Timer: "))
 
-while True:
-    if cont >= 0:
-        print(f"Contando - {cont}")
-        cont = cont - 1
-    else:
-        print("Final da contagem")
-        break
+def timer(segundos):
+    print(f"Contagem regressiva iniciada para {segundos} segundos.")
+    
+    for i in range(segundos, 0, -1):
+        print(f"Tempo restante: {i} segundos")
+        time.sleep(1)
+
+    print("Tempo esgotado! Timer encerrado.")
+
+timer(cont)
