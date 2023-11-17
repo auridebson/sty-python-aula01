@@ -2,7 +2,6 @@ def ln(x):
     print("-"*x)
 
 idade = int(input("Qual o ano de seu nascimento? "))
-anoAtual = Date()
 
 if (2023 - idade) >= 18:
     ln(30)
