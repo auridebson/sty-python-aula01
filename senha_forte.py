@@ -17,7 +17,7 @@ for i in senha:
     else:
         if i in esp1:
             securityCount += 3
-            if i in esp2:
-                securityCount += 1
-            print(f"{senha}\nSua senha tem nota de segurança {securityCount}")
+        if i in esp2:
+            securityCount += 1
+        print(f"{senha}\nSua senha tem nota de segurança {securityCount}")
 
