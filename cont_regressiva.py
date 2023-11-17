@@ -11,7 +11,7 @@ def timer(segundos):
     
     for i in range(segundos, 0, -1):
         print(f"Tempo restante: {i} segundos")
-        time.sleep(1)
+        time.sleep(0.3)
 
     print("Tempo esgotado! Timer encerrado.")
 
